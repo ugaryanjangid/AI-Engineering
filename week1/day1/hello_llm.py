@@ -1,10 +1,10 @@
 # Import os module to read environment variables
 import os 
 
-# Import dotenv to load the .env file                      
+                    
 from pathlib import Path
 
-# Import Groq library
+# Import dotenv to load the .env file  
 from dotenv import load_dotenv
 
 # Import Groq library
