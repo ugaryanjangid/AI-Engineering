@@ -6,6 +6,7 @@ requires-python = ">=3.11"
 members = [
     "day2",
     "day3",
+    "day4",
     "venv",
     "week1",
 ]
@@ -70,6 +71,17 @@ requires-dist = [
     { name = "groq", specifier = ">=1.5.0" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
 ]
+
+[[package]]
+name = "day4"
+version = "0.1.0"
+source = { virtual = "day4" }
+dependencies = [
+    { name = "pydantic" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pydantic", specifier = ">=2.13.4" }]
 
 [[package]]
 name = "distro"
